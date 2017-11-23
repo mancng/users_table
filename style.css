@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    width: 600px;
+    display: table;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+h1{
+    border-bottom: 2px solid black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+table, td, th{
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.form{
+    margin: 20px;
+    width: 300px;
+    text-align: right;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #d1d1d1;
+    padding: 4px;
+}
+
+input[type=text]{
+    margin-bottom: 8px;
+}
